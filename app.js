@@ -81,3 +81,18 @@ const numArrays = [
 
 const numList = numArrays[numArrays.length-1]
 console.log('Exercise 13 result:', numList);
+
+// exercise 14
+let num = numArrays[2][1]
+console.log('Exercise 14 result:',num)
+
+// exercise 15
+let total =0
+numArrays.forEach((num)=>{
+    num.forEach((innerValue)=>{
+        total+=innerValue
+    })
+    
+})
+
+console.log(total)
